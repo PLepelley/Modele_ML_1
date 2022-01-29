@@ -43,13 +43,13 @@ La fonction de coût représente la somme des différences entre y prédits (X.T
 `Theta = Theta - alpha . G`  
 La descente de gradient permet de trouver les paramètres a et b (dans le cadre d'une régression linéaire) pour que la fonction de coût soit la plus proche de 0.  
 
-    - Coefficient de détermination
-`r2 = sum(Y - X.Theta)^2 / sum(Y - moyenne(Y))^2
+    - Coefficient de détermination  
+`r2 = sum(Y - X.Theta)^2 / sum(Y - moyenne(Y))^2`  
 Le coefficient de détermination permet d'évaluer un modèle
 
 3. Représentation des résultats
     - Régression linéaire  
-[Regression lineaire](./reg_lineaire.png)
+[Regression lineaire](reg_lineaire.png)
     - Régression multiple  
 [Regression multiple]() 
     - Régression polynomiale  
