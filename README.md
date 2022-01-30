@@ -85,5 +85,5 @@ L'erreur quadratique à la moyenne est de 53.818 (calculé à partir de la fonct
     - Régression polynomiale  
 L'erreur quadratique à la moyenne est de 7766436069.926 pour le modèle manuel et de 4400142334.915 pour le modèle de SK-Learn.  
 
-7. Conclusion
+7. Conclusion  
 Ce projet m'a permis d'apprendre à créer manuellement un modèle de machine learning et de comprendre le fonctionnement du calcul matriciel ainsi que chaque étape d'un modèle de régression. 
