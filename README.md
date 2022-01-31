@@ -13,9 +13,10 @@
 ---------------
 
 1. Régressions
-> Une régression est un modèle qui cherche à établir une relation entre une variable "expliquée" (y) et une ou plusieurs variables "explicatives" (x1, x2...)  
+> Une régression est un modèle qui cherche à établir une relation entre une variable "expliquée" (y) et une ou plusieurs variables "explicatives" (x1, x2...)    
 
-    - Régression linéaire  
+
+- Régression linéaire  
 Pour une régression linéaire, on chercher à trouver y à partir d'une seule variable x (ou feature), sous forme d'équation :   
 `y = ax + b`   
     - Régression multiple
@@ -49,30 +50,40 @@ Le coefficient de détermination permet d'évaluer un modèle
 
 3. Représentation des résultats
     - Régression linéaire  
-[Regression lineaire](reg_lineaire.png)
+![Regression lineaire](https://github.com/PLepelley/Modele_ML_1/blob/main/reg_simple.png)
     - Régression multiple  
-[Regression multiple]() 
+![Regression multiple](reg_multiple.png) 
     - Régression polynomiale  
-[Regression polynomiale]()
+![Regression polynomiale](reg_polynomiale.png)
 
 4. Evaluation des modèles
+L'erreur quadratique moyenne et le coefficient de détermination ont été calculé avec les fonctions cout() et coeff_determination() définies plus haut.
     - Régression linéaire  
-Mean Squared Error = 9.9307  
+Mean Squared Error = 9.9307   
 R2 = 0.9732  
     - Régression multiple  
-Mean Squared Error = 26.9088  
+Mean Squared Error = 26.9088    
 R2 = 0.3624  
     - Régression polynomiale  
-Mean Squared Error = 7766436069.9260  
+Mean Squared Error = 7766436069.9260    
 R2 = 0.8074  
+
+5. Représentation des résultats avec Scikit-Learn
+    - Régression linéaire  
+![Regression lineaire](reg_simple_sklearn.png)
+    - Régression multiple  
+![Regression multiple](reg_multiple_sklearn.png) 
+    - Régression polynomiale  
+![Regression polynomiale](reg_polynomiale_sklearn.png)
+
 
 6. Comparaison des modèles avec Scikit Learn
     - Régression linéaire  
 L'erreur quadratique à la moyenne est de 9.888 pour le modèle manuel et de 8.752 pour le modèle de SK-Learn.  
     - Régression multiple  
-L'erreur quadratique à la moyenne est de 53.818 pour le modèle manuel et de 48.466 pour le modèle de SK-Learn.    
+L'erreur quadratique à la moyenne est de 53.818 (calculé à partir de la fonction mse de skkearn) pour le modèle manuel et de 48.466 pour le modèle de SK-Learn.    
     - Régression polynomiale  
 L'erreur quadratique à la moyenne est de 7766436069.926 pour le modèle manuel et de 4400142334.915 pour le modèle de SK-Learn.  
 
-7. Conclusion
-Ce projet m'a permis d'apprendre à créer manuellement un modèle de machine learning et de comprendre le fonctionnement du calcul matriciel. 
+7. Conclusion  
+Ce projet m'a permis d'apprendre à créer manuellement un modèle de machine learning et de comprendre le fonctionnement du calcul matriciel ainsi que chaque étape d'un modèle de régression. 
